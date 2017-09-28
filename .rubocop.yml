@@ -22,7 +22,7 @@ Metrics/MethodLength:
 
 Style/Alias:
   EnforcedStyle: prefer_alias_method
-Style/AlignParameters:
+Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 Style/BlockDelimiters:
   EnforcedStyle: semantic
@@ -43,21 +43,21 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 Style/IfUnlessModifier:
   Enabled: false
-Style/IndentationWidth:
+Layout/IndentationWidth:
   Enabled: false
 Style/Lambda:
   Enabled: false
 Style/LambdaCall:
   Enabled: false
-Style/MethodName:
+Naming/MethodName:
   Enabled: false
 Style/PercentLiteralDelimiters:
   Enabled: false
 Style/RegexpLiteral:
   EnforcedStyle: mixed
-Style/SpaceInsideBlockBraces:
+Layout/SpaceInsideBlockBraces:
   EnforcedStyle: space
-Style/SpaceInsideHashLiteralBraces:
+Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 Style/SpecialGlobalVars:
   Enabled: false
